@@ -1,0 +1,22 @@
+/* basic styling to make stuff look nice*/
+body {
+    background-color: #f8f9fa;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 600px;
+}
+
+#password-strength h4 {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.progress {
+    height: 1.5rem;
+}
+
+#strength-bar-fill {
+    transition: width 0.5s;
+}
